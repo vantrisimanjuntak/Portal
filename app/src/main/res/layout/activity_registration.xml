@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registration">
+
+    <ImageView
+        android:id="@+id/logo_stta"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_stta"/>
+    <TextView
+        android:id="@+id/nama_kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nk"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_reg_mhs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/reg_mhs"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:padding="10px"
+            android:gravity="center"
+            android:layout_marginTop="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="NIM"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:id="@+id/nim"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="10px"
+            android:gravity="center"
+            android:layout_marginTop="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"/>
+            <EditText
+                android:id="@+id/password"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+        android:padding="10px"
+        android:gravity="center"
+        android:layout_marginTop="20px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Konfirmasi\nPassword "
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/confrm_pass"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Portal Mahasiswa</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="lupa_pass">Anda Lupa Password?</string>
+    <string name="signup">SIGN IN</string>
+    <string name="register">Belum Punya Akun?</string>
+    <string name="reg_mhs">Registrasi Mahasiswa</string>
+    <string name="greeting">SELAMAT DATANG DI PORTAL MAHASISWA</string>
+    <string name="nk">SEKOLAH TINGGI TEKNOLOGI ADISUTJIPTO YOGYAKARTA</string>
+    <string name="halaman_lupa_pass">
+        Untuk mengubah password Portal Mahasiswa Anda, silahkan hubungi TIK STTA pada jam kerja atau melalui e-mail \n\n
+        Email: tik@stta.ac.id dengan format:\n "[NIM] LUPA PASSWORD"\n\n
+        Terimakasih
+    </string>
+</resources>
